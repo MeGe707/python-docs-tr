@@ -3,31 +3,32 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-17 23:20+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2022-11-27 19:37+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2\n"
 
 #: using/unix.rst:7
 msgid "Using Python on Unix platforms"
-msgstr ""
+msgstr "Unix Platfformlarda Python Kullanımı"
 
 #: using/unix.rst:13
 msgid "Getting and installing the latest version of Python"
-msgstr ""
+msgstr "Python'un en son sürümünü edinme ve yükleme"
 
 #: using/unix.rst:16
 msgid "On Linux"
-msgstr ""
+msgstr "Linux'ta"
 
 #: using/unix.rst:18
 msgid ""
@@ -36,6 +37,10 @@ msgid ""
 "use that are not available on your distro's package.  You can easily compile "
 "the latest version of Python from source."
 msgstr ""
+"Python, çoğu Linux dağıtımında önceden kurulu olarak gelir ve diğer tüm "
+"dağıtımlarda paket olarak bulunur. Ancak, kullanmak isteyebileceğiniz ve "
+"dağıtım paketinizde bulunmayan bazı özellikler vardır. Python'un en son "
+"sürümünü kaynaktan kolayca derleyebilirsiniz."
 
 #: using/unix.rst:23
 msgid ""
@@ -43,60 +48,66 @@ msgid ""
 "repositories as well, you can easily make packages for your own distro.  "
 "Have a look at the following links:"
 msgstr ""
+"Python'un önceden kurulu olarak gelmemesi ve depolarda olmaması durumunda, "
+"kendi dağıtımınız için kolayca paketler oluşturabilirsiniz. Aşağıdaki "
+"bağlantılara bir göz atın:"
 
 #: using/unix.rst:29
 msgid "https://www.debian.org/doc/manuals/maint-guide/first.en.html"
-msgstr ""
+msgstr "https://www.debian.org/doc/manuals/maint-guide/first.en.html"
 
 #: using/unix.rst:30
 msgid "for Debian users"
-msgstr ""
+msgstr "Debian Kullanıcıları İçin:"
 
 #: using/unix.rst:31
 msgid "https://en.opensuse.org/Portal:Packaging"
-msgstr ""
+msgstr "https://en.opensuse.org/Portal:Packaging"
 
 #: using/unix.rst:32
 msgid "for OpenSuse users"
-msgstr ""
+msgstr "OpenSuse kullanıcıları için:"
 
 #: using/unix.rst:33
 msgid ""
 "https://docs-old.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/"
 "RPM_Guide/ch-creating-rpms.html"
 msgstr ""
+"https://docs-old.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/"
+"RPM_Guide/ch-creating-rpms.html"
 
 #: using/unix.rst:34
 msgid "for Fedora users"
-msgstr ""
+msgstr "Fedora Kullanıcıları İçin:"
 
 #: using/unix.rst:35
 msgid "http://www.slackbook.org/html/package-management-making-packages.html"
-msgstr ""
+msgstr "http://www.slackbook.org/html/package-management-making-packages.html"
 
 #: using/unix.rst:36
 msgid "for Slackware users"
-msgstr ""
+msgstr "Slackware Kullanıcıları İçin:"
 
 #: using/unix.rst:40
 msgid "On FreeBSD and OpenBSD"
-msgstr ""
+msgstr "FeeBSD ve OpenBSD üzerinde"
 
 #: using/unix.rst:42
 msgid "FreeBSD users, to add the package use::"
-msgstr ""
+msgstr "FreeBSD kullanıcıları, paket eklemek için kullanır::"
 
 #: using/unix.rst:46
 msgid "OpenBSD users, to add the package use::"
-msgstr ""
+msgstr "OpenBSD kullanıcıları, paket eklemek için kullanır::"
 
 #: using/unix.rst:52
 msgid "For example i386 users get the 2.5.1 version of Python using::"
 msgstr ""
+"Örneğin, i386 kullanıcıları Python'un 2.5.1 sürümünü şunu kullanarak alır::"
 
 #: using/unix.rst:58
 msgid "On OpenSolaris"
-msgstr ""
+msgstr "OpenSolaris üzerinde"
 
 #: using/unix.rst:60
 msgid ""
@@ -104,10 +115,12 @@ msgid ""
 "versions of Python are available and can be installed with e.g. ``pkgutil -i "
 "python27``."
 msgstr ""
+"Python'u `OpenCSW <https://www.opencsw.org/>` adresinden edinebilirsiniz. "
+"Python'un çeşitli sürümleri mevcuttur ve örn. ``pkgutil -i python27``."
 
 #: using/unix.rst:67
 msgid "Building Python"
-msgstr ""
+msgstr "Python'u Builld Etme"
 
 #: using/unix.rst:69
 msgid ""
@@ -117,10 +130,15 @@ msgid ""
 "devguide.python.org/setup/#getting-the-source-code>`_.  (If you want to "
 "contribute patches, you will need a clone.)"
 msgstr ""
+"CPython'u kendiniz derlemek istiyorsanız, yapmanız gereken ilk şey `kaynak "
+"<https://www.python.org/downloads/source/>` almaktır. En son sürümün "
+"kaynağını indirebilir veya yeni bir \"klon <https://devguide.python.org/"
+"setup/#getting-the-source-code>\" alabilirsiniz. (Yamalara katkıda bulunmak "
+"istiyorsanız, bir klona ihtiyacınız olacaktır.)"
 
 #: using/unix.rst:75
 msgid "The build process consists of the usual commands::"
-msgstr ""
+msgstr "Derleme işlemi olağan komutlardan oluşur::"
 
 #: using/unix.rst:81
 msgid ""
@@ -128,6 +146,9 @@ msgid ""
 "Unix platforms are extensively documented in the :source:`README.rst` file "
 "in the root of the Python source tree."
 msgstr ""
+"Belirli Unix platformları için :ref:`Yapılandırma seçenekleri <configure-"
+"options>` ve uyarılar, Python kaynak ağacının kökündeki :source:`README.rst` "
+"dosyasında kapsamlı bir şekilde belgelenmiştir."
 
 #: using/unix.rst:87
 msgid ""
@@ -135,10 +156,13 @@ msgid ""
 "``make altinstall`` is therefore recommended instead of ``make install`` "
 "since it only installs :file:`{exec_prefix}/bin/python{version}`."
 msgstr ""
+"``make install`` :file:`python3` ikilisinin üzerine yazabilir veya "
+"maskeleyebilir. Bu nedenle, yalnızca :file:`{exec_prefix}/bin/python{version}"
+"` yüklediğinden ``make install`` yerine ``make altinstall`` önerilir."
 
 #: using/unix.rst:93
 msgid "Python-related paths and files"
-msgstr ""
+msgstr "Python ile ilgili yollar ve dosyalar"
 
 #: using/unix.rst:95
 msgid ""
@@ -147,66 +171,81 @@ msgid ""
 "${exec_prefix}``) are installation-dependent and should be interpreted as "
 "for GNU software; they may be the same."
 msgstr ""
+"Bunlar, yerel kurulum kurallarına bağlı olarak farklılık gösterebilir; :"
+"envvar:`prefix` (``${prefix}``) ve :envvar:`exec_prefix` (``${exec_prefix}"
+"``) kuruluma bağlıdır ve GNU yazılımı olarak yorumlanmalıdır; aynı "
+"olabilirler."
 
 #: using/unix.rst:100
 msgid ""
 "For example, on most Linux systems, the default for both is :file:`/usr`."
 msgstr ""
+"Örneğin, çoğu Linux sisteminde, her ikisi için de varsayılan değer :file:`/"
+"usr` şeklindedir."
 
 #: using/unix.rst:103
 msgid "File/directory"
-msgstr ""
+msgstr "dosya/dizin"
 
 #: using/unix.rst:103
 msgid "Meaning"
-msgstr ""
+msgstr "Anlam"
 
 #: using/unix.rst:105
 msgid ":file:`{exec_prefix}/bin/python3`"
-msgstr ""
+msgstr ":file:`{exec_prefix}/bin/python3`"
 
 #: using/unix.rst:105
 msgid "Recommended location of the interpreter."
-msgstr ""
+msgstr "Yorumlayıcı için önerilen konum."
 
 #: using/unix.rst:107
 msgid ""
 ":file:`{prefix}/lib/python{version}`, :file:`{exec_prefix}/lib/"
 "python{version}`"
 msgstr ""
+":file:`{prefix}/lib/python{version}`, :file:`{exec_prefix}/lib/"
+"python{version}`"
 
 #: using/unix.rst:107
 msgid ""
 "Recommended locations of the directories containing the standard modules."
-msgstr ""
+msgstr "Standart modülleri içeren dizinlerin önerilen konumları."
 
 #: using/unix.rst:110
 msgid ""
 ":file:`{prefix}/include/python{version}`, :file:`{exec_prefix}/include/"
 "python{version}`"
 msgstr ""
+":file:`{prefix}/include/python{version}`, :file:`{exec_prefix}/include/"
+"python{version}`"
 
 #: using/unix.rst:110
 msgid ""
 "Recommended locations of the directories containing the include files needed "
 "for developing Python extensions and embedding the interpreter."
 msgstr ""
+"Python uzantılarını geliştirmek ve yorumlayıcıyı yerleştirmek için gereken "
+"dahil etme dosyalarını içeren dizinlerin önerilen konumları."
 
 #: using/unix.rst:118
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Çeşitli"
 
 #: using/unix.rst:120
 msgid ""
 "To easily use Python scripts on Unix, you need to make them executable, e.g. "
 "with"
 msgstr ""
+"Python scriptlerini Unix'te kolayca kullanmak için, onları yürütülebilir "
+"hale getirmeniz gerekir, örn. ile birlikte"
 
 #: using/unix.rst:127
 msgid ""
 "and put an appropriate Shebang line at the top of the script.  A good choice "
 "is usually ::"
 msgstr ""
+"ve betiğin başına uygun bir Shebang satırı koyun. İyi bir seçim genellikle ::"
 
 #: using/unix.rst:132
 msgid ""
@@ -214,16 +253,21 @@ msgid ""
 "However, some Unices may not have the :program:`env` command, so you may "
 "need to hardcode ``/usr/bin/python3`` as the interpreter path."
 msgstr ""
+"tüm :envvar:`PATH` içinde Python yorumlayıcısını arar. Ancak, bazı "
+"Unice'ler :program:`env` komutuna sahip olmayabilir, bu nedenle yorumlayıcı "
+"yolu olarak ``/usr/bin/python3`` kodlamanız gerekebilir."
 
 #: using/unix.rst:136
 msgid ""
 "To use shell commands in your Python scripts, look at the :mod:`subprocess` "
 "module."
 msgstr ""
+"Python scriptlerinizde shell komutlarını kullanmak için :mod:`subprocess` "
+"modülüne bakın."
 
 #: using/unix.rst:141
 msgid "Custom OpenSSL"
-msgstr ""
+msgstr "Özel OpenSSL"
 
 #: using/unix.rst:143
 msgid ""
@@ -233,18 +277,28 @@ msgid ""
 "directory should also contain a ``cert.pem`` file and/or a ``certs`` "
 "directory."
 msgstr ""
+"Satıcınızın OpenSSL yapılandırmasını ve sistem güven deposunu kullanmak "
+"için, ``openssl.cnf`` dosyası veya ``/etc`` içinde sembolik bağlantı içeren "
+"dizini bulun. Çoğu dağıtımda dosya ya ``/etc/ssl`` veya ``/etc/pki/tls`` "
+"dizinindedir. Dizin ayrıca bir \"cert.pem\" dosyası ve/veya bir \"certs\" "
+"dizini içermelidir."
 
 #: using/unix.rst:154
 msgid ""
 "Download, build, and install OpenSSL. Make sure you use ``install_sw`` and "
 "not ``install``. The ``install_sw`` target does not override ``openssl.cnf``."
 msgstr ""
+"OpenSSL'yi indirin, oluşturun ve kurun. ``install`` değil, ``install_sw`` "
+"kullandığınızdan emin olun. \"install_sw\" hedefi, \"openssl.cnf\" dosyasını "
+"geçersiz kılmaz."
 
 #: using/unix.rst:172
 msgid ""
 "Build Python with custom OpenSSL (see the configure `--with-openssl` and `--"
 "with-openssl-rpath` options)"
 msgstr ""
+"Python'u özel OpenSSL ile derleyin ('--with-openssl' ve '--with-openssl-"
+"rpath' seçeneklerini yapılandırmaya bakın)"
 
 #: using/unix.rst:187
 msgid ""
@@ -252,3 +306,6 @@ msgid ""
 "recompile Python to update OpenSSL. It's sufficient to replace the custom "
 "OpenSSL installation with a newer version."
 msgstr ""
+"OpenSSL'nin yama sürümleri, geriye dönük uyumlu bir ABI'ya sahiptir. "
+"OpenSSL'yi güncellemek için Python'u yeniden derlemeniz gerekmez. Özel "
+"OpenSSL kurulumunu daha yeni bir sürümle değiştirmek yeterlidir."
